@@ -10,7 +10,7 @@ Javascript port of mxgmn's [WaveFunctionCollapse](https://github.com/mxgmn/WaveF
 
 This library provides clojure bindings for the java wavefunctioncollapse library found [here](https://github.com/sjcasey21/wavefunctioncollapse "here").
 
-To Install, add `[wavefunctioncollapse "0.1.4"]` to your lein dependencies.
+To Install, add `[wavefunctioncollapse "0.1.5"]` to your lein dependencies.
 
 For more information check out the [docs](https://cljdoc.org/d/wavefunctioncollapse/wavefunctioncollapse/CURRENT "here") .
 
