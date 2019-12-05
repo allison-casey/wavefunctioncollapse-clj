@@ -19,7 +19,7 @@ For more information check out the [docs](https://cljdoc.org/d/wavefunctioncolla
 ```clojure
 (require [wavefunctioncollapse.core :refer [overlapping-model simple-tiled-model]]
          [mikera.image.core :as img]
-	     [cheshire.core :as c])
+	 [cheshire.core :as c])
 
 (overlapping-model 
  (img/load-image "resources/citytemplate.png")
