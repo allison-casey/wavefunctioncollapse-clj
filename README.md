@@ -12,7 +12,7 @@ This library provides clojure bindings for the java wavefunctioncollapse library
 
 To Install, add `[wavefunctioncollapse "0.1.4"]` to your lein dependencies.
 
-For more information check out the [here](https://cljdoc.org/d/wavefunctioncollapse/wavefunctioncollapse/CURRENT "here") .
+For more information check out the [docs](https://cljdoc.org/d/wavefunctioncollapse/wavefunctioncollapse/CURRENT "here") .
 
 ## Quickstart
 
