@@ -164,16 +164,16 @@
     }
   ],
   "subsets": {
-    "Standard": ["corner", "cross", "empty", "line"],
-    "Dense": ["corner", "cross", "line"],
-    "Crossless": ["corner", "empty", "line"],
-    "TE": ["t", "empty"],
-    "T": ["t"],
-    "CL": ["corner", "line"],
-    "CE": ["corner", "empty"],
-    "C": ["corner"],
-    "Fabric": ["cross", "line"],
-    "Dense-Fabric": ["cross"]
+    "standard": ["corner", "cross", "empty", "line"],
+    "dense": ["corner", "cross", "line"],
+    "crossless": ["corner", "empty", "line"],
+    "te": ["t", "empty"],
+    "t": ["t"],
+    "cl": ["corner", "line"],
+    "ce": ["corner", "empty"],
+    "c": ["corner"],
+    "fabric": ["cross", "line"],
+    "dense-fabric": ["cross"]
  },
   "tilesize": 10
 }

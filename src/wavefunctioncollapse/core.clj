@@ -33,7 +33,21 @@
   :ret #(instance? BufferedImage %))
 
 (defn overlapping-model
-  "Generates a new image using the Overlapping Model."
+  "Generates a new image using the Overlapping Model.
+
+  ## Positional Arguments
+  `data` A `BufferedImage` object to use as the initial sample.  
+  `N` The size of the patterns.  
+  `width` Width of the output generation in pixels.  
+  `height` Heght of the output generation in pixels.
+
+  ## Keyword Arguments  
+  `periodic-input` Whether or not the input is periodic.  
+  `periodic-output` Whether or not the output should be periodic.  
+  `symmetry` Allowed symmetries from 1 (no symmetry) to 8 (all mirrored / rotated).  
+  `ground` Id of the specific pattern to use as the bottom of the generation.  
+  `seed` Seed to use for the random generator.  
+  `limit` Maximum number of iterations before finishing."
   [data
    N
    width
@@ -93,7 +107,21 @@
   :ret #(instance? BufferedImage %))
 
 (defn simple-tiled-model
-  "Generate a new image using the Simple Tiled Model."
+  "Generate a new image using the Simple Tiled Model.
+
+  ## Positional Arguments
+  `config` Tiles, subset and constraint definitions.  
+  `images` Map of `BufferedImage`'s keyed by their `tilename`.  
+  `width` Output width in number of tiles.  
+  `height` Output height in number of tiles.  
+
+  ## Keyword Arguments
+  `subset` Name of the subset defined in `config` to use.  
+  `periodic` Whether or not the output should be periodic.  
+  `black`  
+  `unique`  
+  `seed` Seed to use for the random generator.  
+  `limit` Maximum number of iterations before finishing."
   [config
    images
    width
