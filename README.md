@@ -31,7 +31,7 @@ For more information check out the [docs](https://cljdoc.org/d/wavefunctioncolla
 (def config (-> "resources/knot/data.json" slurp (c/parse-string true)))
 (def tilenames (for [tile (:tiles config)] (:name tile)))
 (def images (zipmap tilenames 
-                    (map #(img/load-image (str "resources/knot/" % ".png")) tilenames))
+                    (map #(img/load-image (str "resources/knot/" % ".png")) tilenames)))
 (simple-tiled-model
  config
  images
